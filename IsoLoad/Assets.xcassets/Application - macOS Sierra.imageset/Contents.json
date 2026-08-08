@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Application - macOS Sierra.png",
+      "idiom" : "mac"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

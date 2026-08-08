@@ -137,6 +137,10 @@
 		39FF05F62859850F00A86670 /* SettingsFirmwaresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF05F52859850F00A86670 /* SettingsFirmwaresView.swift */; };
 		39FF05F82859851800A86670 /* SettingsApplicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF05F72859851800A86670 /* SettingsApplicationsView.swift */; };
 		39FF05FA285985DD00A86670 /* SettingsAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF05F9285985DD00A86670 /* SettingsAboutView.swift */; };
+		488AF9C53027E9AE00A39157 /* ISO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488AF9C43027E9AE00A39157 /* ISO.swift */; };
+		488AF9C63027E9AE00A39157 /* ISO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488AF9C43027E9AE00A39157 /* ISO.swift */; };
+		488AF9C83027E9D100A39157 /* ISOService 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488AF9C73027E9D100A39157 /* ISOService 2.swift */; };
+		488AF9CA3027EC6B00A39157 /* ListRowISO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488AF9C93027EC6B00A39157 /* ListRowISO.swift */; };
 		573A23622A28711C00EC9470 /* Architecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A23612A28711C00EC9470 /* Architecture.swift */; };
 		573A23642A28791F00EC9470 /* Scene+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A23632A28791F00EC9470 /* Scene+Extension.swift */; };
 		574199D22AED15420086493F /* PropertyListUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574199D12AED15420086493F /* PropertyListUpdater.swift */; };
@@ -299,6 +303,9 @@
 		39FF05F52859850F00A86670 /* SettingsFirmwaresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFirmwaresView.swift; sourceTree = "<group>"; };
 		39FF05F72859851800A86670 /* SettingsApplicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsApplicationsView.swift; sourceTree = "<group>"; };
 		39FF05F9285985DD00A86670 /* SettingsAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAboutView.swift; sourceTree = "<group>"; };
+		488AF9C43027E9AE00A39157 /* ISO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO.swift; sourceTree = "<group>"; };
+		488AF9C73027E9D100A39157 /* ISOService 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ISOService 2.swift"; sourceTree = "<group>"; };
+		488AF9C93027EC6B00A39157 /* ListRowISO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowISO.swift; sourceTree = "<group>"; };
 		573A23612A28711C00EC9470 /* Architecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Architecture.swift; sourceTree = "<group>"; };
 		573A23632A28791F00EC9470 /* Scene+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scene+Extension.swift"; sourceTree = "<group>"; };
 		574199D12AED15420086493F /* PropertyListUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListUpdater.swift; sourceTree = "<group>"; };
@@ -381,6 +388,7 @@
 				390451C02856E3E900E0B563 /* Helpers */,
 				390451C32856E4A500E0B563 /* Model */,
 				390451C42856E7FD00E0B563 /* Views */,
+				488AF9C93027EC6B00A39157 /* ListRowISO.swift */,
 			);
 			path = IsoLoad;
 			sourceTree = "<group>";
@@ -431,6 +439,7 @@
 				3935F4C6286B54E200760AB0 /* SparkleUpdater.swift */,
 				398734C328600E6E00B4C357 /* TaskManager.swift */,
 				398734C5286011C300B4C357 /* Validator.swift */,
+				488AF9C73027E9D100A39157 /* ISOService 2.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -552,6 +561,7 @@
 				3935F4AA286B04BC00760AB0 /* HelperToolLaunchdPropertyList.swift */,
 				39252A9E285C140D00956C74 /* ShellExecutor.swift */,
 				39CF560E2861B857006FB5D2 /* XPCRoute+Extension.swift */,
+				488AF9C43027E9AE00A39157 /* ISO.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -849,6 +859,7 @@
 				39FF05F82859851800A86670 /* SettingsApplicationsView.swift in Sources */,
 				577267AC2A4568CD00434B2C /* SettingsInstallerCacheAlertType.swift in Sources */,
 				39CF561D2861C3F5006FB5D2 /* DiskImageCreator.swift in Sources */,
+				488AF9CA3027EC6B00A39157 /* ListRowISO.swift in Sources */,
 				575812BA2A373A4F00425BAF /* FirmwareAlertType.swift in Sources */,
 				39CF55AD28615530006FB5D2 /* SettingsGeneralHelperView.swift in Sources */,
 				39252A7B285AC50400956C74 /* SettingsDiskImagesView.swift in Sources */,
@@ -857,6 +868,7 @@
 				39CF561A2861C2D1006FB5D2 /* DirectoryCreator.swift in Sources */,
 				39252A77285A849F00956C74 /* AppDelegate.swift in Sources */,
 				398A13472B78F22A00F96F7E /* LogEntry.swift in Sources */,
+				488AF9C53027E9AE00A39157 /* ISO.swift in Sources */,
 				3935F47C2864434B00760AB0 /* SettingsGeneralNotificationsView.swift in Sources */,
 				3935F4C7286B54E200760AB0 /* SparkleUpdater.swift in Sources */,
 				398A13222B78BA6D00F96F7E /* LogView.swift in Sources */,
@@ -941,6 +953,7 @@
 				398734D4286046B000B4C357 /* UInt32+Extension.swift in Sources */,
 				390451D42856F74B00E0B563 /* Package.swift in Sources */,
 				395DCD16287FE36E00C411CE /* InstallerAlertType.swift in Sources */,
+				488AF9C83027E9D100A39157 /* ISOService 2.swift in Sources */,
 				39CF560028619147006FB5D2 /* HelperToolCommandType.swift in Sources */,
 				39252A87285ACE9C00956C74 /* FooterText.swift in Sources */,
 				573A23642A28791F00EC9470 /* Scene+Extension.swift in Sources */,
@@ -964,6 +977,7 @@
 				39CF560128619147006FB5D2 /* HelperToolCommandType.swift in Sources */,
 				393F35B928640DF6005B7165 /* ShellExecutor.swift in Sources */,
 				39CF55A028614DD8006FB5D2 /* main.swift in Sources */,
+				488AF9C63027E9AE00A39157 /* ISO.swift in Sources */,
 				3935F4AE286B04BF00760AB0 /* HelperToolLaunchdPropertyList.swift in Sources */,
 				39CF560A2861AE7F006FB5D2 /* HelperToolCommandRequest.swift in Sources */,
 				393F35BA28640E1E005B7165 /* XPCRoute+Extension.swift in Sources */,
@@ -1122,9 +1136,19 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7K3HVCLV7Z;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = 56T5D95753;
-				ENABLE_APP_SANDBOX = NO;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IsoLoad/Info.plist;
@@ -1159,9 +1183,19 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 7K3HVCLV7Z;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = 56T5D95753;
-				ENABLE_APP_SANDBOX = NO;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IsoLoad/Info.plist;

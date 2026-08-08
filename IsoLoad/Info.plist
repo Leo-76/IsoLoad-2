@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>mist</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>mist</string>
+			</array>
+		</dict>
+	</array>
+	<key>SMPrivilegedExecutables</key>
+	<dict>
+		<key>com.stanley.isoload.helper</key>
+		<string>anchor apple generic and identifier &quot;com.stanley.isoload.helper&quot; and certificate leaf[subject.OU] = &quot;6761283907&quot;</string>
+	</dict>
+	<key>SUPublicEDKey</key>
+	<string>5keDBd5mvIAICok49UqfX9WE/HVJIpe0zQCfDDqmnMg=</string>
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/ninxsoft/Mist/main/appcast.xml</string>
+</dict>
+</plist>
