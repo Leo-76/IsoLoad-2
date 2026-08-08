@@ -1,0 +1,41 @@
+name: Linting
+on:
+  push:
+    paths: ["**.swift"]
+    branches: [main]
+  pull_request:
+    paths: ["**.swift"]
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  linting:
+    name: Linting
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v6
+      - uses: swift-actions/setup-swift@v3
+        with:
+          swift-version: "6.3.1"
+      - uses: m-takuma/setup-swiftlint@1.0.0
+        with:
+          swiftlint-version: "0.63.2"
+      - name: Print SwiftLint version
+        run: swiftlint --version
+      - name: Run SwiftLint
+        run: swiftlint --strict
+      - name: Print SwiftFormat version
+        run: swiftformat --version
+      - name: Run SwiftFormat
+        run: swiftformat --lint .
+      - name: Download DrString
+        run: curl --location --remote-name https://github.com/dduan/DrString/releases/latest/download/drstring-universal-apple-darwin.tar.gz
+      - name: Extract DrString
+        run: |
+          mkdir drstring-universal-apple-darwin
+          tar --extract --file drstring-universal-apple-darwin.tar.gz --directory drstring-universal-apple-darwin
+      - name: Add DrString to $PATH
+        run: echo "$GITHUB_WORKSPACE/drstring-universal-apple-darwin" >> $GITHUB_PATH
+      - name: Print DrString version
+        run: drstring --version
+      - name: Run DrString
+        run: drstring check --config-file .drstring.toml

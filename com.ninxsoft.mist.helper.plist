@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AssociatedBundleIdentifiers</key>
+	<array>
+		<string>com.stanley.isoload</string>
+	</array>
+	<key>Label</key>
+	<string>com.stanley.isoload.helper</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.stanley.isoload.helper</key>
+		<true/>
+	</dict>
+	<key>Program</key>
+	<string>/Library/PrivilegedHelperTools/com.stanley.isoload.helper</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/PrivilegedHelperTools/com.stanley.isoload.helper</string>
+	</array>
+</dict>
+</plist>

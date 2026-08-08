@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildHash</key>
+	<string>7ca63b85d8feca37d13f8b17819344ad4052bb874755dd791557f82aa6257837</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.stanley.isoload.helper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.40</string>
+	<key>CFBundleVersion</key>
+	<string>0.40</string>
+	<key>SMAuthorizedClients</key>
+	<array>
+		<string>anchor apple generic and identifier "com.stanley.isoload" and info[CFBundleVersion] &gt;= "0.1" and certificate leaf[subject.OU] = "6761283907"</string>
+	</array>
+</dict>
+</plist>
