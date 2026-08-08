@@ -1,0 +1,36 @@
+{
+  "isos": [
+    {
+      "name": "Windows 11",
+      "version": "24H2",
+      "date": "2024-10-01",
+      "size": "5.4 GB",
+      "url": "https://software.download.prss.microsoft.com/dbazure/Win11_24H2_French_x64.iso",
+      "icon": "windows"
+    },
+    {
+      "name": "Ubuntu",
+      "version": "24.04.1 LTS",
+      "date": "2024-08-29",
+      "size": "2.7 GB",
+      "url": "https://releases.ubuntu.com/24.04.1/ubuntu-24.04.1-desktop-amd64.iso",
+      "icon": "ubuntu"
+    },
+    {
+      "name": "Debian",
+      "version": "12.7",
+      "date": "2024-08-31",
+      "size": "3.7 GB",
+      "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.7.0-amd64-netinst.iso",
+      "icon": "debian"
+    },
+    {
+      "name": "Fedora",
+      "version": "40",
+      "date": "2024-04-23",
+      "size": "2.1 GB",
+      "url": "https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso",
+      "icon": "fedora"
+    }
+  ]
+}
